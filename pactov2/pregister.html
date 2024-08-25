@@ -1,0 +1,105 @@
+<!doctype html> 
+<html>
+<head>
+    <title>Patient register page</title>
+</head>
+<body background="hospital image.jpg">
+    <header>
+          <p align="center">
+            <a>
+                <img src="pactro.jpg" height="105px" width="100px">
+            </a>
+          </p>
+            <p align="center">
+                <a href="home.html">
+                    Home page
+                </a>
+                |
+                <a href="doctors.html">
+                    doctors page
+                </a>
+                |
+                <a href="branches.html">
+                    branches places
+                </a>
+                |
+                <a href="dregister.html">
+                    doctor signup
+                </a>
+                |
+                <a href="dlogin.html">
+                    Doctor signIn
+                </a>
+                |
+                <a href="#">
+                    Patient SignUp
+                </a>
+                |
+                <a href="plogin.html">
+                    Patient SignIn
+                </a>
+            </p>
+    </header>
+    <hr>
+    
+    <form  name="Patient signup" action="servelet" method="get">
+     <table border="5px" align="center" bgcolor="silver" cellpading="3px" cellspacing="3px">
+        <caption><b>
+            <u>
+               Patient register
+            </u>
+        </b></caption>
+        <tr>
+            <td>
+                <label for="id141">Full Nmame</label>
+                <br>
+                <input type="text" id="id141" name="username" required placeholder="enter your username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="id142">Mobile number</label>
+                <br>
+                <select>
+                    <option value="choose">choose</option>
+                    <option value="+91(IND)">+91(IND)</option>
+                    <option value="+44(UK)">+44(UK)</option>
+                    <option value="+86(China)">+86(China)</option>
+                    <option value="+1(USA)">+1(USA)</option>
+                </select>
+                <input type="number" id="id142" name="mobile" required placeholder="enter mobile number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="id143">Confirm password</label>
+                <br>
+                <input type="password" name="password" id="id143">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="" id="" value="Receive relevent offers promotional communication from pactro">Receive relevent offers promotional communication from pactro
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <p align="center">
+                <input type="submit" value="PatientSingup">
+               </p>
+            </td>
+        </tr>
+     </table>
+    </form>
+   <br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <b>
+            <center>
+                copyright@manikanth
+            </center>
+            
+        </b>
+    </footer>
+</body>
+</html>
